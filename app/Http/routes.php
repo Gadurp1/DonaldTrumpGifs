@@ -13,6 +13,7 @@
 
 Route::resource('/','FeedController@index');
 
+Route::get('feed','FeedController@grid');
 
 /*
 |--------------------------------------------------------------------------
