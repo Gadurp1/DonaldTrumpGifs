@@ -16,11 +16,4 @@ class FeedController extends Controller
     return view('feed.index')
         ->with('gif',$gif);
   }
-  public function grid(){
-    $file=file_get_contents('http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=Donald+Trump');
-    $gif=json_decode($file, true);
-    $gif=$gif['data'];
-    return view('feed.grid')
-        ->with('gif',$gif);
-  }
 }

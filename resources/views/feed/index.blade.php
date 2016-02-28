@@ -104,7 +104,7 @@ a {
   <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container" style="width:65%">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="font-weight:800">Making Gifs Great Again</a>
+      <a class="navbar-brand" href="#" style="font-weight:800">Donald Trump Gifs</a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -114,8 +114,8 @@ a {
     <div class="navbar-collapse collapse">
       <div class="navbar-header navbar-right">
     		<p class="navbar-text">
-    		<a href="" class=" navbar-link">
-          <b>18,785 GIFS</b>
+    		<a href="" class="navbar-link">
+          <b>Give Me Money?</b>
         </a>
     		</p>
     	</div>
@@ -126,6 +126,7 @@ a {
     <br><br><br>
     <br>
     <div class="container" style="width:60%">
+      <h2 class="text-center" >Making Gifs Great Again</h2>
       <br>
 <div class="row">
   <div class="embed-responsive embed-responsive-16by9 panel panel-default" >
@@ -135,7 +136,7 @@ a {
     </video>
   </div>
 </div>
-<div class="row hidden">
+<div class="row">
   <ul class="list-group">
     <li class="list-group-item">
       <div class="row">
@@ -150,7 +151,6 @@ a {
   <a href="" class="col-md-12 btn btn-lg btn-success"> <b><i class="fa fa-random"></i> Random</b></a>
 
 </div>
-<br><br>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
