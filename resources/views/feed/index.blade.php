@@ -27,6 +27,7 @@
     <![endif]-->
     <style>
     body {
+
 }
 .videoPlayer {
   background-color: rgba(0,188,140,.75);
@@ -99,12 +100,13 @@ a {
                0 0 5px hsla(30,50%,75%,.5);
   top: -1px;
 }
+
     </style>
   </head>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container" style="width:65%">
+  <nav class="navbar navbar-default navbar-fixed-top" >
+  <div class="container-fluid" style="width:65%">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="font-weight:800">Making Gifs Great Again</a>
+      <a class="navbar-brand" href="#" style="font-size:1em;font-weight:800"><p>Making Gifs Great Again</p></a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -114,7 +116,7 @@ a {
     <div class="navbar-collapse collapse">
       <div class="navbar-header navbar-right">
     		<p class="navbar-text">
-    		<a href="" class=" navbar-link">
+    		<a href="" style="color:red" class=" navbar-link">
           <b>18,785 GIFS</b>
         </a>
     		</p>
@@ -125,31 +127,39 @@ a {
   <body>
     <br><br><br>
     <br>
-    <div class="container" style="width:60%">
+    <div class="container-fluid" >
       <br>
-<div class="row">
-  <div class="embed-responsive embed-responsive-16by9 panel panel-default" >
-    <video controls autoplay loop>
-      <source src="{{$gif['image_mp4_url']}}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-<div class="row hidden">
-  <ul class="list-group">
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-md-2"><span class="badge badge-info">36</span><small>Views</small></div>
-        <div class="col-md-2"><span class="badge badge-info">36</span><small>Likes</small></div>
-        <div class="col-md-2"><span class="badge badge-info">36</span><small>Shares</small></div>
-      </div>
-    </li>
-  </ul>
-</div>
-<div class="row">
-  <a href="" class="col-md-12 btn btn-lg btn-success"> <b><i class="fa fa-random"></i> Random</b></a>
+      <div class="col-md-8 col-md-offset-2 col-sm-12">
+        <div class="">
+          <div class="row">
+            <div class="embed-responsive embed-responsive-16by9 panel panel-default" >
+              <video controls autoplay loop>
+                <source src="{{$gif['image_mp4_url']}}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="row hidden">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-md-2"><span class="badge badge-info">36</span><small>Views</small></div>
+                  <div class="col-md-2"><span class="badge badge-info">36</span><small>Likes</small></div>
+                  <div class="col-md-2"><span class="badge badge-info">36</span><small>Shares</small></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="" style="width:100%" class="col-md-12 btn btn-lg btn-primary"> <b><i class="fa fa-random"></i> Random</b></a>
 
-</div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+
+          </div>
+        </div>
+      </div>
 <br><br>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
