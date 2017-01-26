@@ -124,12 +124,12 @@ a {
     </div>
   </div>
 </nav>
-  <body>
+  <body style="background:none">
     <br><br><br>
     <br>
     <div class="container-fluid" >
       <br>
-      <div class="col-md-8 col-md-offset-2 col-sm-12">
+      <div class="col-md-6 col-md-offset-3 col-sm-12">
         <div class="">
           <div class="row">
             <div class="embed-responsive embed-responsive-16by9 panel panel-default" >
@@ -154,13 +154,20 @@ a {
         <a href="" style="width:100%" class="col-md-12 btn btn-lg btn-primary"> <b><i class="fa fa-random"></i> Random</b></a>
 
         </div>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
 
-          </div>
-        </div>
+
+
       </div>
 <br><br>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        @foreach($recent_gifs as $gifr)
+          <div class="col-md-4">
+            <img src="{{$gifr->thumb_url}}" class="col-md-12 img-responsive"  style="height:200px;margin-bottom:5px" alt="">
+          </div>
+        @endforeach
+      </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
